@@ -1,0 +1,20 @@
+[
+  {
+    "id": "tour-1",
+    "name": "Winter Clash 2024",
+    "number_of_teams": 4,
+    "venue": "Indoor Arena",
+    "kind_of_match": "Basketball",
+    "teams": ["team-a", "team-b", "team-c", "team-d"],
+    "matches": ["match-1", "match-2", "match-3", "match-4", "match-5", "match-6"]
+  },
+  {
+    "id": "tour-2",
+    "name": "Spring Open 2025",
+    "number_of_teams": 6,
+    "venue": "Outdoor Field",
+    "kind_of_match": "Football",
+    "teams": ["team-e", "team-f", "team-g", "team-h", "team-i", "team-j"],
+    "matches": ["match-7", "match-8", "match-9", "match-10", "match-11", "match-12", "match-13", "match-14", "match-15"]
+  }
+]

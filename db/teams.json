@@ -1,0 +1,52 @@
+[
+  {
+    "id": "team-a",
+    "name": "Eagles",
+    "tournamentId": "tour-1"
+  },
+  {
+    "id": "team-b",
+    "name": "Sharks",
+    "tournamentId": "tour-1"
+  },
+  {
+    "id": "team-c",
+    "name": "Lions",
+    "tournamentId": "tour-1"
+  },
+  {
+    "id": "team-d",
+    "name": "Tigers",
+    "tournamentId": "tour-1"
+  },
+  {
+    "id": "team-e",
+    "name": "Falcons",
+    "tournamentId": "tour-2"
+  },
+  {
+    "id": "team-f",
+    "name": "Hawks",
+    "tournamentId": "tour-2"
+  },
+  {
+    "id": "team-g",
+    "name": "Wolves",
+    "tournamentId": "tour-2"
+  },
+  {
+    "id": "team-h",
+    "name": "Bears",
+    "tournamentId": "tour-2"
+  },
+  {
+    "id": "team-i",
+    "name": "Panthers",
+    "tournamentId": "tour-2"
+  },
+  {
+    "id": "team-j",
+    "name": "Cougars",
+    "tournamentId": "tour-2"
+  }
+]

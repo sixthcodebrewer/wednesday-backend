@@ -1,0 +1,92 @@
+[
+  {
+    "id": "match-1",
+    "team1": "Eagles",
+    "team2": "Sharks",
+    "score1": 10,
+    "score2": 8,
+    "winner": "Eagles",
+    "status": "completed",
+    "tournamentId": "tour-1"
+  },
+  {
+    "id": "match-2",
+    "team1": "Lions",
+    "team2": "Tigers",
+    "score1": null,
+    "score2": null,
+    "winner": null,
+    "status": "scheduled",
+    "tournamentId": "tour-1"
+  },
+  {
+    "id": "match-3",
+    "team1": "Eagles",
+    "team2": "Lions",
+    "score1": null,
+    "score2": null,
+    "winner": null,
+    "status": "scheduled",
+    "tournamentId": "tour-1"
+  },
+  {
+    "id": "match-4",
+    "team1": "Sharks",
+    "team2": "Tigers",
+    "score1": null,
+    "score2": null,
+    "winner": null,
+    "status": "scheduled",
+    "tournamentId": "tour-1"
+  },
+  {
+    "id": "match-5",
+    "team1": "Eagles",
+    "team2": "Tigers",
+    "score1": null,
+    "score2": null,
+    "winner": null,
+    "status": "scheduled",
+    "tournamentId": "tour-1"
+  },
+  {
+    "id": "match-6",
+    "team1": "Sharks",
+    "team2": "Lions",
+    "score1": null,
+    "score2": null,
+    "winner": null,
+    "status": "scheduled",
+    "tournamentId": "tour-1"
+  },
+  {
+    "id": "match-7",
+    "team1": "Falcons",
+    "team2": "Hawks",
+    "score1": null,
+    "score2": null,
+    "winner": null,
+    "status": "scheduled",
+    "tournamentId": "tour-2"
+  },
+  {
+    "id": "match-8",
+    "team1": "Wolves",
+    "team2": "Bears",
+    "score1": null,
+    "score2": null,
+    "winner": null,
+    "status": "scheduled",
+    "tournamentId": "tour-2"
+  },
+  {
+    "id": "match-9",
+    "team1": "Panthers",
+    "team2": "Cougars",
+    "score1": null,
+    "score2": null,
+    "winner": null,
+    "status": "scheduled",
+    "tournamentId": "tour-2"
+  }
+]
