@@ -15,18 +15,19 @@ const createTournament = async (name, number_of_teams, venue, kind_of_match) => 
   const teams = await readJsonFile('teams.json');
   const matches = await readJsonFile('matches.json');
 
-  const tournamentId = generateUniqueId();
+  const tournamentId = await generateUniqueId(); // Await the async function
   const newTeams = [];
-  for (let i = 1; i <= number_of_teams; i++) {
-    const teamId = generateUniqueId();
-    newTeams.push({ id: teamId, name: `Team ${i}`, tournamentId });
+  for (let i = 0; i < number_of_teams; i++) {
+    const teamId = await generateUniqueId();
+    const teamName = `Team ${String.fromCharCode(65 + i)}`; // Generate A, B, C...
+    newTeams.push({ id: teamId, name: teamName, tournamentId });
   }
 
-  const tournamentMatches = generateRoundRobinMatches(newTeams).map(match => ({
+  const tournamentMatches = await Promise.all(generateRoundRobinMatches(newTeams).map(async match => ({
     ...match,
-    id: generateUniqueId(), // Generate unique ID for each match
+    id: await generateUniqueId(), // Generate unique ID for each match
     tournamentId,
-  }));
+  })));
 
   const newTournament = {
     id: tournamentId,
